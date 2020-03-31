@@ -13,6 +13,8 @@ update_submodule() {
 # Run scripts
 $DIR/git/install.sh
 update_submodule .vim
+update submodule .vim/bundle/Vundle.vim
 $DIR/.vim/install.sh
 update_submodule .tmux
+update_submodule .tmux/plugins/tpm
 $DIR/.tmux/install.sh
