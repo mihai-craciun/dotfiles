@@ -21,6 +21,7 @@ alias gpl='git pull'
 alias gpom='git push origin master'
 alias gpo='git push origin'
 alias gp='git push'
+alias gpu='git push --set-upstream origin $(git rev-parse --abbrev-ref HEAD)'
 
 # checkout
 alias gck='git checkout'
